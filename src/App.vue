@@ -2,7 +2,9 @@
   <div class="p-4 antialiased">
     <h1>Annoucement Generator</h1>
 
-    <div class="shadow-lg m-auto bg-gray-800 relative flex flex-col -z-50 font-poppins"
+    <button @click="generate">Generate</button>
+
+    <div id="generated" class="m-auto bg-gray-dark relative flex flex-col -z-50 font-poppins"
       style="height: 1080px; width: 1080px;">
       <div class="h-20 flex items-center justify-between px-14 bg-primary z-20 w-full">
         <div>
@@ -31,14 +33,13 @@
           </svg>
         </div>
 
-
-        <div>
-          <span class="text-4xl font-extrabold text-white">Week 5</span>
-        </div>
+        <h2 class="text-4xl font-extrabold text-white">
+          Week 5
+        </h2>
       </div>
 
       <div class="flex-1 flex items-center justify-center">
-        <div class="flex flex-col items-center ">
+        <div class="flex flex-col items-center gap-8">
 
           <WorkshopCard />
           <WorkshopCard />
@@ -67,11 +68,36 @@
     </div>
 
 
+    <div id="display" class="mt-16">
+
+    </div>
+
   </div>
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import WorkshopCard from './components/WorkshopCard.vue'
+import html2canvas from 'html2canvas'
+
+
+const generate = () => {
+    html2canvas(
+      document.getElementById('generated') as HTMLElement,
+      {
+        width: 1080,
+        height: 1080
+      }
+    ).then((canvas) => {
+      document.getElementById('display')?.append(canvas)
+
+      // let link = document.createElement('a')
+      // link.download = 'week6.png'
+      // link.href = canvas.toDataURL()
+      // link.target = '_blank'
+      // link.click()
+    })
+}
 </script>
 
 <style scoped>

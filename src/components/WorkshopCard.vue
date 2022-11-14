@@ -5,44 +5,13 @@
   <div class="flex items-center" style="width: 800px;">
 
     <!-- Icon -->
-    <div class="relative flex items-center justify-center" style="height: 262px; width: 290px">
-      <svg class="absolute inset-0" width="290" height="290" viewBox="0 0 290 262" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <g filter="url(#filter0_bd_313_545)">
-          <path
-            d="M25.8537 133.941C23.3821 129.646 23.3821 124.354 25.8537 120.059L79.4357 26.9412C81.9072 22.646 86.4749 20 91.418 20L198.582 20C203.525 20 208.093 22.646 210.564 26.9412L264.146 120.059C266.618 124.354 266.618 129.646 264.146 133.941L210.564 227.059C208.093 231.354 203.525 234 198.582 234H91.418C86.4749 234 81.9072 231.354 79.4357 227.059L25.8537 133.941Z"
-            fill="url(#paint0_linear_313_545)" fill-opacity="0.5" shape-rendering="crispEdges" />
-          <path
-            d="M26.7204 120.558L80.3024 27.4399C82.5961 23.4538 86.8338 21 91.418 21L198.582 21C203.166 21 207.404 23.4538 209.698 27.4399L263.28 120.558C265.573 124.544 265.573 129.456 263.28 133.442L209.698 226.56C207.404 230.546 203.166 233 198.582 233H91.418C86.8338 233 82.5961 230.546 80.3024 226.56L26.7204 133.442C24.4265 129.456 24.4265 124.544 26.7204 120.558Z"
-            stroke="url(#paint1_linear_313_545)" stroke-width="2" shape-rendering="crispEdges" />
-        </g>
-        <defs>
-          <filter id="filter0_bd_313_545" x="0" y="0" width="290" height="262" filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
-            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_313_545" />
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-              result="hardAlpha" />
-            <feOffset dy="4" />
-            <feGaussianBlur stdDeviation="12" />
-            <feComposite in2="hardAlpha" operator="out" />
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-            <feBlend mode="normal" in2="effect1_backgroundBlur_313_545" result="effect2_dropShadow_313_545" />
-            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_313_545" result="shape" />
-          </filter>
-          <linearGradient id="paint0_linear_313_545" x1="69.5191" y1="13.672" x2="220.159" y2="226.749"
-            gradientUnits="userSpaceOnUse">
-            <stop stop-color="white" stop-opacity="0.4" />
-            <stop offset="1" stop-color="white" stop-opacity="0.1" />
-          </linearGradient>
-          <linearGradient id="paint1_linear_313_545" x1="77.0095" y1="47.0376" x2="247.832" y2="239.449"
-            gradientUnits="userSpaceOnUse">
-            <stop stop-color="#CFBEFF" stop-opacity="0" />
-            <stop offset="1" stop-color="#7652DD" />
-          </linearGradient>
-        </defs>
+    <div class="relative flex items-center justify-center mr-8" style="height: 214px; width: 242px">
+      <svg class="absolute inset-0" width="242" height="214" viewBox="0 0 242 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M3.58717 101.056L57.1692 7.93867C59.285 4.26173 63.1927 2 67.418 2L174.582 2C178.807 2 182.715 4.26173 184.831 7.93867L238.413 101.056C240.529 104.734 240.529 109.266 238.413 112.944L184.831 206.061C182.715 209.738 178.807 212 174.582 212H67.418C63.1927 212 59.285 209.738 57.1692 206.061L3.58717 112.944C1.47094 109.266 1.47094 104.734 3.58717 101.056Z"
+          fill="white" fill-opacity="0.1" stroke="#7652DD" stroke-width="4" />
       </svg>
+
 
       <div class="">
         <svg width="110" height="91" viewBox="0 0 110 91" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +28,7 @@
     </div>
     <!-- Details -->
     <div class="flex-auto" style="width: 510px;">
-      <h3 class="text-3xl font-medium text-primary">Lundi - 14/11/2022 - 13h</h3>
+      <h3 class="text-3xl font-medium text-primary mb-4">Lundi - 14/11/2022 - 13h</h3>
       <h2 class="text-5xl font-semibold text-white">Modélisation 3d Avec Blender</h2>
     </div>
   </div>
