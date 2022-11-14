@@ -4,8 +4,15 @@
       <main class="h-screen flex">
         <section class="flex-1 bg-gray-dark text-white overflow-auto border-r-8 border-indigo-300 font-poppins">
           <header class="bg-primary bg-opacity-10 px-8 py-4">
-            <h1 class="text-4xl font-bold">EIC Announcement Generator</h1>
-            <small>By Benali Mouad</small>
+            <div class="flex items-center justify-between">
+              <div>
+                <h1 class="text-4xl font-bold">EIC Announcement Generator</h1>
+                <small>By Benali Mouad</small>
+              </div>
+              <a href="https://github.com/MouadBNL/eic-workshop-annoucement" class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
           </header>
 
           <div class="p-8 mb-8">
