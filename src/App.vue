@@ -2,13 +2,15 @@
   <NConfigProvider :theme="darkTheme" :theme-overrides="themeOverride">
     <div class="antialiased">
       <main class="h-screen flex">
-        <section class="flex-1 bg-gray-dark text-white overflow-auto border-r-8 border-primary font-poppins">
+        <section class="flex-1 bg-gray-dark text-white overflow-auto border-r-8 border-indigo-300 font-poppins">
           <header class="bg-primary bg-opacity-10 px-8 py-4">
-            <h1 class="text-4xl font-bold">EIC Annoucement Generator</h1>
+            <h1 class="text-4xl font-bold">EIC Announcement Generator</h1>
             <small>By Benali Mouad</small>
           </header>
 
           <div class="p-8 mb-8">
+            <p class="mb-8">A small web app to generate weekly workshop announcement for EIC club. Svg images must be under 128 width, and 136 height.</p>
+
             <div class="flex items-center justify-between mb-8">
               <h2 class="text-2xl font-semibold">Weekly workshop details :</h2>
 
